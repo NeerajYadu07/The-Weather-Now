@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weather Now</title>
+</head>
+
+<body>
+    <div class="home">
+        <div class="title">
+            <h2 class="brand">Weather Now</h2>
+            <div>
+                <h2 class="temp">27&#176 </h2>
+
+                <div class="city-details">
+                    <h3 class="name">Delhi</h3>
+                    <small>
+                        <span class="time">2:00</span>
+                        -
+                        <span class="date">Sunday 18 December</span>
+
+                    </small>
+                </div>
+                <div class="weather-icon">
+                    <img src="./icons/day/113.png" alt="icon" width="50px" height="50px">
+                    <span class="condition">Clear</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="right-section">
+            <form id="get-city">
+                <input type="text" class="search" placeholder="Enter City...">
+                <button type="submit" class="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <ul class="cities">
+                <li class="city">London</li>
+                <li class="city">Paris</li>
+                <li class="city">New York</li>
+                <li class="city">Alice</li>
+                <li class="city">San Francisco</li>
+            </ul>
+            <ul class="details">
+                <h3>Weather Details</h3>
+                <li>
+                    <span>cloudy</span>
+                    <span class="cloud">89%</span>
+                </li>
+                <li>
+                    <span>humid</span>
+                    <span class="humidity">89%</span>
+                </li>
+                <li>
+                    <span>windy</span>
+                    <span class="wind">10km/hr</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+<script src="script.js"> </script>
+
+</body>
+
+</html>
